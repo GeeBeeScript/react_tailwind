@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
+
 
 @theme {
   --color-midnight: #121063;
@@ -6,6 +8,8 @@
   --color-bermuda: #78dcca;
   --color-happy-yellow: #fcba03;
   --color-happy-yellow-400: #ebde34;
+  --text-base: 2rem;
+  --font-winky: 'Winky Sans', sans-serif;
 }
 
 @layer base {
@@ -13,3 +17,4 @@
     font-weight: bold;
   }
 }
+
